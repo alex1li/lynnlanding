@@ -1,0 +1,43 @@
+
+body {
+  overflow: scroll;
+}
+
+#contact {
+  margin-left: 100px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-bottom:50px;
+  width: 20%;
+}
+
+
+#info {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#start {
+  background-color:#415658 ;
+  height:90%;
+}
+
+#arrow a {
+  padding-top: 60px;
+  text-align: center;
+}
+
+#arrow a span {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
