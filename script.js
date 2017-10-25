@@ -14,7 +14,6 @@ var addArrow = function() {
   $(div).hide().appendTo("#scroll").fadeIn(1000);
 }
 
-/*
 $(function () {
   showText(["Stop \n", "Wasting\n", "Time"], 0, 500);
-}); */
+});
