@@ -73,7 +73,34 @@ body {
 animation-name: fade;
 animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
-animation-duration: 4s;
+animation-duration: 3s;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+}
+
+#start img.second {
+animation-name: fade;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+animation-duration: 6s;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+}
+
+#start img.third {
+animation-name: fade;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+animation-duration: 9s;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+}
+
+#start img.fourth {
+animation-name: fade;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+animation-duration: 12s;
 animation-direction: alternate;
 animation-fill-mode: forwards;
 }
